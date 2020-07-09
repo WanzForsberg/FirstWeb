@@ -1,5 +1,16 @@
+/*Master Styles*/
+body {
+  margin: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/*Nav Styles*/
 .nav-wrapper {
-display: flex;
+  display: flex;
   justify-content: space-between;
   padding: 38px;
 }
@@ -34,3 +45,5 @@ border-bottom: 1px solid black;
 .nav-link-wrapper a:hover {
   color: black;
 }
+
+/*Portfolio Styles*/
